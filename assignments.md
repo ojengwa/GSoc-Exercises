@@ -14,7 +14,7 @@ For unbreakable encryption, the key is the same length as the plain text message
 Unfortunately, this method is impractical for most users, so the modified method is to use a password as a key. If the password is shorter than the message, which is likely, the key is repeated cyclically throughout the message. The balance for this method is using a sufficiently long password key for security, but short enough to be memorable.
 Your task has been made easy, as the encryption key consists of three lower case characters. Write a function that takes as a parameter, an array (or list) containing the encrypted ASCII codes, and using the knowledge that the plain text must contain common English words, decrypt the message and find the sum of the ASCII values in the original text.
 
-##### 4.** Passcode derivation**:
+##### 4. **Passcode derivation**:
 A common security method used for online banking is to ask the user for three random characters from a passcode. For example, if the passcode was 531278, they may ask for the 2nd, 3rd, and 5th characters; the expected reply would be: 317.
 Given that the three characters are always asked for in order, write a function (or a method) that will take an array (or list) containing successful login attempts as parameter and analyse the array so as to determine the shortest possible secret passcode of unknown length.
 
