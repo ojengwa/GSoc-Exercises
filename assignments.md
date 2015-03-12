@@ -42,3 +42,8 @@ An Armstrong number is a 3 digit number for which sum of cube of its digit is eq
 
 ##### 10. **Bubblesort**
 Write a program which reads strings from standard input and sorts them using the Bubblesort algorithm. Determine the execution time with 10, 1000, 1000000 entries using time.
+
+##### 11. **Small & Big**
+Write a function that receives an array of numbers and returns the smallest and biggest numbers only in a new array.
+
+
