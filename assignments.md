@@ -1,3 +1,4 @@
+ok
 ##### 1. **Palindrome**:
 You are to write a function that returns the reverse of the string provided. If the reverse of the string is the same as the original string, as in the case of palindromes, return true instead.
 Return null when the string provided is empty.
